@@ -1,4 +1,5 @@
-from chatbot import get_responses
+from ..model.model_1 import get_responses
+
 def main_1():
     print("chatbot : hi how i can help you! ")
     while True:
